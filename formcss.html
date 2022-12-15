@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <style>
+            #head{
+                font-family: century gothic;
+                font-size: 28px;
+                color: brown;
+                font-weight: bold;
+            }
+            div{
+                width: 550px;
+                height: 670px;
+                border: 5px solid grey;
+                border-radius: 10px;
+                margin-left: 350px;
+                margin-top: 20px;
+                padding: 20px;
+                background-color: lightgray;
+            }
+            .content{
+                font-family: Century Gothic;
+                font-size: 16px;
+                color: black;
+                font-weight: bold;
+            }
+            input{
+                width: 550px;
+                height: 40px;
+                font-family: Century Gothic;
+                font-size: 16px;
+                color: grey;
+                border: 2px solid grey;
+            }
+            input:focus{
+                background-color: grey;
+                color: white;
+                transition: 0.5s;
+                box-shadow: 0px 10px 20px grey;
+            }
+            .btn{
+                width: 200px;
+                height: 40px;
+                font-family: Century Gothic;
+                font-size: 16px;
+                border: 2px solid grey;
+                margin-left: 50px;
+                border-radius: 10px;
+            }
+            .btn:hover{
+                background-color: black;
+                font-size: 20px;
+                transition: 0.4s;
+                color: white;
+                box-shadow: 0px 10px 20px crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <span id="head">Employee Registration</span></center>
+            <div>
+                <span class="content">User Name*</span>
+                <br>
+                <input type="text" name="user" placeholder="Enter User Name">
+                <br><br>
+                <span class="content">Password*</span>
+                <br>
+                <input type="password" name="pswd" placeholder="Enter Password">
+                <br><br>
+                <span class="content">Employee Name</span>
+                <br>
+                <input type="text" name="name" placeholder="Enter Employee Name">
+                <br><br>
+                <span class="content">Address</span>
+                <br>
+                <input type="text" name="pswd" placeholder="Enter Address">
+                <br><br>
+                <span class="content">City</span>
+                <br>
+                <input type="text" name="City" placeholder="Enter Employee City">
+                <br><br>
+                <span class="content">E-Mail</span>
+                <br>
+                <input type="email" name="mail" placeholder="Enter email">
+                <br><br>
+                <span class="content">Contact Number</span>
+                <br>
+                <input type="number" name="Contact" placeholder="Enter Mobile Number">
+                <br><br>
+                <span class="content">Date of Birth</span>
+                <br>
+                <input type="date" name="DOB" placeholder="Enter DOB">
+                <br><br>
+                <input type="submit" value="Submit" class="btn">
+                <input type="reset" value="Reset" class="btn">
+            </div>
+    </body>
+</html>
