@@ -1,0 +1,33 @@
+body{
+    background-image:url(images/mob.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    margin: 200px;
+    padding: 20px;
+    margin-right:700px;
+    height: 220px;
+    background-image: linear-gradient(75deg,grey,crimson,rgba(184, 80, 184,0.5));
+}
+label{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#b1{
+    margin-left: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 17px;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
