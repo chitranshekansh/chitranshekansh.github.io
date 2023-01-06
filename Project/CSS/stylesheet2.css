@@ -1,0 +1,27 @@
+body{
+    background-color: #111111;
+}
+table{
+    width: 100%;
+    height: 40px;
+    
+}
+.style1{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.style1:hover{
+    font-size: 24px;
+    color: red;
+    background-color: green;
+    transition: 0.2s;
+}
+.col1{
+    width: 25px;
+    color: white;
+}
+.col2{
+    width: 150px;
+    text-align: center;
+}
